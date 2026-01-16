@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ClearIBits {
      public static int clearIBit(int n,int ithBit) {
-        int bitMask=~(1<<ithBit);
+        int bitMask=(~0)<<ithBit;
          return (n & bitMask);
        }
         

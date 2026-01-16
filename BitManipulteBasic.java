@@ -8,7 +8,7 @@ public class BitManipulteBasic {
         System.out.println(5^3);
 
        //binary not
-        System.out.println(~30);
+        System.out.println(~-5);
          //binary left shift
         System.out.println(51<<3);
          //binary right shift
